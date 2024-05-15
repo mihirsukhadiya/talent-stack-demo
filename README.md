@@ -1,3 +1,24 @@
+# PROJECT GUIDELINE
+# COVERED POINT
+=> 1) Create User => user input => username, email, role => used redux to create => it will modify state where initial data is added like json it will push to last index.
+=> 2) Edit User => need user id => user input => username, email, role => it will modify that data and update state
+=> 3) Delete User => By confirming it will delete user from state.
+=> 4) Pagination => we have used material UI for dialog, table, pagination due to time limits. => user can select 5,10,15 per page option
+=> 5) Form Validation => used formik to add validation along with material ui TextField and Yup.
+=> Responsive ness we have given like high configured dashboard.
+=> side bar looks empty but there company logo, logout, and many prodile related data we can add.
+=> navbar is common we can now create multiple common layout pages by using this structure.
+=> we have used material ui for component and used custom styling wherever needed we can also manage it by not adding inline styling but due to time complexity we chooses that.
+=> we have added redux toolkit for that added all structure to need for it.
+=> all project is used a common used structure.
+
+# LIVE URL:- https://talent-stack.vercel.app/
+# Thank you
+
+
+
+# REACT GUIDELINES
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
