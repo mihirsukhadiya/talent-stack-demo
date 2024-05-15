@@ -1,0 +1,39 @@
+.dashboard-title {
+  color: #242424;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.dashboard-subTitle {
+  color: #242424;
+  font-weight: 500;
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+.table-layout-title {
+  color: #242424;
+  font-weight: 500;
+  margin-top: 0.2rem;
+  font-size: 1.3rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+.table-layout-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+@media only screen and (min-width: 280px) and (max-width: 1023px) {
+  .dashboard-title {
+    font-size: 1.2rem;
+    font-size: 1.2rem;
+  }
+  .dashboard-subTitle {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+}
